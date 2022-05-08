@@ -1,0 +1,32 @@
+.title {
+	text-align:center;
+	background-color:yellow;
+	padding:5px;
+	text-shadow:2px 2px red;
+}
+.footer {
+	text-align:center;
+	padding:55px;
+	background-color:lightblue;
+	font-family:broadway;
+}
+.links {
+	border:solid 1px;
+	background-color:lightblue;
+	padding:5px;
+}
+body {
+	overflow-x: hidden;
+}
+a:link {
+	text-decoration:none;
+}
+li {
+	border:solid 1px;
+	display: inline;
+}
+a:hover {
+	color:red;
+	background-color:yellow;
+	transition:1s;
+}

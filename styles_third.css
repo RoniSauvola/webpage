@@ -1,0 +1,14 @@
+form {
+	margin:10px;
+	width:320px;
+	margin: auto;
+}
+.submit {
+	margin:20px;
+	background-color:yellow;
+	width:200px;
+}
+fieldset {
+	border:1px solid black;
+	width:320px;
+}

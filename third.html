@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+	<link href="styles_third.css" rel="stylesheet">
+	<title>Third Page</title>
+  </head>
+  <body style="background-image: url('wall.jpg')">
+  <header>
+  <div class="title">
+  <h2>Vantaa Fan Club Registration</h2>
+  </div>
+  </header>
+  <div class="row">
+  <div class="col">
+  <div class="links">
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="second.html">Vantaa's Attractions</a></li>
+  <li><a href="third.html">Registration</a></li>
+  <li><a href="fourth.html">About Me</a></li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  	<form>
+		<fieldset>
+			<legend>Basic Information</legend>
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname" placeholder="Your name"><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname" placeholder="Your last name"><br>
+			<label for="email">Email Address:</label><br>
+			<input type="text" id="email" name="email" placeholder="Your email address"><br> 
+			<label for="email">Home Address:</label><br>
+			<input type="text" id="home" name="home" placeholder="Your home address"><br> 
+		</fieldset>
+		<fieldset>
+			<p><label for="favourite">Favourite Thing About Vantaa:</label></p>
+			<textarea id="favourite" name="favourite" rows="4" cols="30">What is your favourite thing about Vantaa?</textarea><br>
+		</fieldset>
+		<fieldset>
+			<p><label for="feedback">Feedback Field:</label></p>
+			<textarea id="feedback" name="feedback" rows="4" cols="30">This is the area for your feedback.</textarea><br>
+		</fieldset>
+		<fieldset>
+			<label for="check">Which is the best city in the metropolitan area?</label><br>
+			<select name="movie" id="movie">
+				<option value="vantaa1">Vantaa</option>
+				<option value="vantaa2">Vantaa even more</option>
+				<option value="vantaa3">Vantaa the most</option>
+			</select><br>
+		</fieldset>
+		<fieldset>
+			<label for="check">Newsletter Signup:</label><br>
+			<input type="checkbox" id="check" name="check"><br>
+		</fieldset>
+	
+		<input type="submit" value="Register" class="submit">
+	</form>
+  <footer>
+  <div class="footer">
+  <p>Roni Sauvola's Project</p>
+  </div>
+  </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
